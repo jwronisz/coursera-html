@@ -42,9 +42,9 @@ h1 {
 
 }
 .row > div{
-  height: 150px;
+  height: 200px;
   background-color: grey;
-  border: solid black;
+  border: 1px solid black;
   margin-bottom: 10px;
   position: relative;
   overflow: auto;
