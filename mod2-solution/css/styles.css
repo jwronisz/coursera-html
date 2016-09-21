@@ -1,0 +1,83 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  margin: 0 2px 0 2px;
+}
+h1 {
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  font-size: 1.75em;
+}
+.section-title {
+  position: absolute;
+  width: 100px;
+  height: 25px;
+  top: 0px;
+  right: 0px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0px 0px 0px 0px;
+  border: 1px solid black;
+  font-size: 1.25em;
+}
+#red{
+  background-color: red;
+}
+#green{
+  background-color: green; 
+}
+#blue{
+  background-color: blue;
+}
+.section-content{
+  position: absolute;
+  top: 50px;
+  left: 10px;
+}
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+
+}
+.row > div{
+  height: 150px;
+  background-color: grey;
+  border: solid black;
+  margin-bottom: 10px;
+  position: relative;
+  overflow: auto;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4{
+    float: left;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+    width: 32.33%;
+  }
+}
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    float: left;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+    width: 49%;
+  }  
+  .green{
+    width: 99%;
+  }
+
+}
+  /********** Small devices only **********/
+@media (max-width: 767px) {
+  .col-sd-12 {
+    float: left;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+    width: 99%;
+  }
+}
