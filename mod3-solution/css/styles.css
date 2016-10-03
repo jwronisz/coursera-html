@@ -1,0 +1,30 @@
+.page-content {
+	background-color: #CCCCCC;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-bottom: 30px;
+}
+.page-content h2 {
+	margin-top: 0px;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+#collapsable-nav{
+	margin-bottom: 30px;
+}
+#collapsable-nav a {
+	color: black;
+	border-bottom: solid;
+	border-color: black;
+	border-width: 2px;
+}
+#chicken-nav {
+	margin-top: -10px;
+}
+.navbar{
+	background-color: #CCCCCC;
+	margin-bottom: 0px;
+	border: solid 2px;
+}
